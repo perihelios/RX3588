@@ -1,0 +1,4 @@
+rootProject.name = 'RX3588'
+
+include 'proc'
+include 'assembler'
