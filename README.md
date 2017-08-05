@@ -43,7 +43,7 @@ for an OS and application software can be built on these.
 ### Instruction Set
 
 |Instruction|Bit Pattern|Operands|Description|Administrative Mode|
-|---|---|---|---|
+|---|---|---|---|---|
 |LD r, [M]|00000rrr|r: X, Y, M, S, F, B, E, A|Load value at memory location in M into register r||
 |ST [M], r|00001rrr|r: X, Y, M, S, F, B, E, A|Store value in register r into memory location in M||
 |PSH r|00010rrr|r: X, Y, M, S, F, B, E, A|Push value in register r onto top of stack||
