@@ -6,11 +6,12 @@ The RX3588 is a virtual processor, implemented in Java, along with the other
 components (RAM, I/O controller, interrupt controller, etc.) necessary to make
 a working system.
 
-### Goals of the RX3588:
+### Goals & Features:
 * RISC; very few instructions (31)
 * Small number of registers (8)
 * 8-bit opcodes with embedded operands
 * 32-bit addressing and registers (max 2GB memory)
+* Big-endian
 * 64K I/O ports
 * Multi-mode (programs run in either Administrative or User mode)
 * Base-addressing (allowing relocatable modules)
